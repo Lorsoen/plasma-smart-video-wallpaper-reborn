@@ -1284,7 +1284,7 @@ ColumnLayout {
                                 Kirigami.Theme.colorSet: Kirigami.Theme.View
                                 ToolTip.delay: 1000
                                 ToolTip.visible: hovered
-                                ToolTip.text: "Pick a file"
+                                ToolTip.text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Pick a file")
                             }
                             Button {
                                 icon.name: "overflow-menu-symbolic"
@@ -1294,7 +1294,7 @@ ColumnLayout {
                                 Kirigami.Theme.colorSet: Kirigami.Theme.View
                                 ToolTip.delay: 1000
                                 ToolTip.visible: hovered
-                                ToolTip.text: "More actions"
+                                ToolTip.text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "More actions")
                                 Menu {
                                     id: mediaMenu
                                     y: parent.height
@@ -1335,7 +1335,7 @@ ColumnLayout {
                                 Kirigami.Theme.colorSet: Kirigami.Theme.View
                                 ToolTip.delay: 1000
                                 ToolTip.visible: hovered
-                                ToolTip.text: "Remove from list"
+                                ToolTip.text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Remove from list")
                             }
                         }
                     }
