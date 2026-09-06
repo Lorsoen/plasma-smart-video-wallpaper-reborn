@@ -54,13 +54,13 @@ RowLayout {
         }
 
         Action {
-            text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Discord")
+            text: i18ndc("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Proper noun. If you wish, transliterate it for easier reading. Otherwise, ignore.", "Discord")
             icon.source: Qt.resolvedUrl("../../icons/discord.svg")
             onTriggered: Qt.openUrlExternally("https://discord.gg/ZqD75dzKTe")
         }
 
         Action {
-            text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Matrix")
+            text: i18ndc("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Proper noun. If you wish, transliterate it for easier reading. Otherwise, ignore.", "Matrix")
             icon.source: Qt.resolvedUrl("../../icons/matrix_logo.svg")
             onTriggered: Qt.openUrlExternally(matrixRoom)
         }
@@ -71,11 +71,11 @@ RowLayout {
             title: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Project page")
             icon.name: "globe"
             Action {
-                text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "GitHub")
+                text: i18ndc("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Proper noun. If you wish, transliterate it for easier reading. Otherwise, ignore.", "GitHub")
                 onTriggered: Qt.openUrlExternally(ghRepo)
             }
             Action {
-                text: i18nd("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "KDE Store")
+                text: i18ndc("plasma_wallpaper_luisbocanegra.smart.video.wallpaper.reborn", "Proper noun. If you wish, transliterate it for easier reading. Otherwise, ignore.", "KDE Store")
                 onTriggered: Qt.openUrlExternally(kdeStore)
             }
         }
